@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Zest Category"
+            id="org.eclipse.app4mc.capra.default.visualisation.zest">
+      </category>
+      <view
+            name="CapraZest"
+            icon="icons/sample.gif"
+            category="org.eclipse.app4mc.capra.default.visualisation.zest"
+            class="org.eclipse.app4mc.capra.handlers.ZestView"
+            id="org.eclipse.app4mc.capra.default.visualisation.zest.views.ZestView">
+      </view>
+   </extension>
+
+</plugin>
